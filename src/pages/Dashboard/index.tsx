@@ -55,7 +55,7 @@ function Dashboard() {
         <>
         <img src={logo} alt="GitHub Explorer" />
         <Title>Explore repositórios no GitHub</Title>
-        <Form hasError={!!inputError} onSubmit={() => handleAddRepository}>
+        <Form hasError={!!inputError} onSubmit={handleAddRepository}>
             <input
                 value = {newRepo}
                 onChange={e => setNewRepo(e.target.value)}
