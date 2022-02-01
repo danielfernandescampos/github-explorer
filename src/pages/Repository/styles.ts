@@ -26,11 +26,11 @@ export const RepositoryInfo = styled.section`
     margin-top: 80px;
 
     header {
-        display:flex;
+        display: flex;
         align-items: center;
 
         img {
-            width: 20px;
+            width: 120px;
             height: 120px;
             border-radius: 50%;
         }
